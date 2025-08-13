@@ -1,0 +1,23 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Cropper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Image Cropper</h1>
+    
+    <input type="file" id="imageInput" accept="image/*">
+    <br><br>
+    
+    <div id="container">
+        <canvas id="originalCanvas"></canvas>
+    </div>
+    <canvas id="croppedCanvas" width="200" height="200"></canvas>
+    <button id="cropButton">Crop and Preview</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
